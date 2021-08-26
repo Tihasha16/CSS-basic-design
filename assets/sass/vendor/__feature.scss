@@ -1,0 +1,14 @@
+$p_color : #FF0000;
+$s_color : #FF00FF;
+$w_color : yellow ;
+
+$p_font : Impact;
+$s_font : candara;
+
+@mixin clearcode {
+  &:after {
+    content:'';
+    display: block;
+    clear: both;
+  }
+}
